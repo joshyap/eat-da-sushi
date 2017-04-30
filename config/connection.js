@@ -6,10 +6,10 @@ if (process.env.JAWSDB_URL) {
   connection = mysql.createConnection(procss.env.JAWSDB_URL);
 } else {
   connection = mysql.createConnection({
-    port: 3306,
+    // port: 3306,
     host: "localhost",
     user: "root",
-    password: "",
+    password: "hacktheplanet",
     database: "sushi_db"
   });
 });
